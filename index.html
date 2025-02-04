@@ -61,7 +61,7 @@
      <div class="container mx-auto mt-28 sora-font mb-40">
         <h3 class="text-[#179800] text-4xl font-semibold lg:ml-3 mb-10">Services</h3>
        <!-- service cards -->
-        <div class="lg:flex lg:justify-evenly ">
+        <div class="flex lg:justify-evenly flex-col md:flex-row items-center ">
             <!-- card 1 -->
             <div class="px-8 py-10 space-y-5 bg-[#EFEBE3] rounded-xl w-[400px] h-[375px] mb-2">
                 <div class="flex justify-center"><img class="bg-white rounded-full px-5 py-5" src="c2-assets/service.png" alt=""></div>
@@ -87,18 +87,27 @@
         <h3 class="font-semibold text-4xl text-[#169801] pt-36 pl-20">Popular Products</h3>
         <div class="container mx-auto lg:flex justify-between ">
             <!-- pic banana -->
-             <div class="px-8 h-[370px] w-auto bg-[#53db2a] bg-[url(c2-assets/vegetable-offer.png)] bg-no-repeat bg-right-bottom rounded-xl mt-20 ">
+             <div class="px-8 h-[370px] w-auto bg-gradient-to-br from-green-500 to-white rounded-xl mt-20 relative">
                 <h2 class="text-3xl font-semibold text-white pt-10 pb-7">30% off</h2>
                 <p class="font-thin pb-5">Discover a world of treats, toys, and <br>essentials handpicked for </p>
                 <button class="btn bg-white px-8 py5 text-xl">Buy Now</button>
+                <div class="absolute right-0 bottom-0"><img src="/c2-assets/vegetable-offer.png" alt=""></div>
              </div>
              <!-- small card -->
-             <div class="w-4/6 mt-20 grid flex-1 grid-cols-2 lg:grid-cols-3 gap-1 space-y-1  ">
+             <div class="w-4/6 mt-20 grid grid-cols-2 lg:grid-cols-3 gap-1 space-y-1  ">
                 <div class="rounded-xl w-64 h-auto flex justify-center items-center bg-white  ">
                     <div><img class="bg-[#EFEBE3] rounded-xl" src="c2-assets/onion.png" alt=""></div>
                     <div class="px-2 py-1">
                         <p>🌟4.5</p>
                         <h1 class="text-lg font-semibold">Onion 1 KG</h1>
+                        <p>$39.99</p>
+                    </div>
+                </div>
+                <div class="rounded-xl w-64 h-auto flex justify-center items-center bg-white  ">
+                    <div><img class="bg-[#EFEBE3] rounded-xl" src="c2-assets/tomato.png" alt=""></div>
+                    <div class="px-2 py-1">
+                        <p>🌟4.5</p>
+                        <h1 class="text-lg font-semibold">Tomato 1 KG</h1>
                         <p>$39.99</p>
                     </div>
                 </div>
@@ -111,10 +120,18 @@
                     </div>
                 </div>
                 <div class="rounded-xl w-64 h-auto flex justify-center items-center bg-white  ">
-                    <div><img class="bg-[#EFEBE3] rounded-xl" src="c2-assets/onion.png" alt=""></div>
+                    <div><img class="bg-[#EFEBE3] rounded-xl" src="c2-assets/tomato.png" alt=""></div>
                     <div class="px-2 py-1">
                         <p>🌟4.5</p>
-                        <h1 class="text-lg font-semibold">Onion 1 KG</h1>
+                        <h1 class="text-lg font-semibold">Tomato 1 KG</h1>
+                        <p>$39.99</p>
+                    </div>
+                </div>
+                <div class="rounded-xl w-64 h-auto flex justify-center items-center bg-white  ">
+                    <div><img class="bg-[#EFEBE3] rounded-xl" src="c2-assets/potato.png" alt=""></div>
+                    <div class="px-2 py-1">
+                        <p>🌟4.5</p>
+                        <h1 class="text-lg font-semibold">Potato</h1>
                         <p>$39.99</p>
                     </div>
                 </div>
@@ -127,26 +144,10 @@
                     </div>
                 </div>
                 <div class="rounded-xl w-64 h-auto flex justify-center items-center bg-white  ">
-                    <div><img class="bg-[#EFEBE3] rounded-xl" src="c2-assets/onion.png" alt=""></div>
+                    <div><img class="bg-[#EFEBE3] rounded-xl" src="c2-assets/tomato.png" alt=""></div>
                     <div class="px-2 py-1">
                         <p>🌟4.5</p>
-                        <h1 class="text-lg font-semibold">Onion 1 KG</h1>
-                        <p>$39.99</p>
-                    </div>
-                </div>
-                <div class="rounded-xl w-64 h-auto flex justify-center items-center bg-white  ">
-                    <div><img class="bg-[#EFEBE3] rounded-xl" src="c2-assets/onion.png" alt=""></div>
-                    <div class="px-2 py-1">
-                        <p>🌟4.5</p>
-                        <h1 class="text-lg font-semibold">Onion 1 KG</h1>
-                        <p>$39.99</p>
-                    </div>
-                </div>
-                <div class="rounded-xl w-64 h-auto flex justify-center items-center bg-white  ">
-                    <div><img class="bg-[#EFEBE3] rounded-xl" src="c2-assets/onion.png" alt=""></div>
-                    <div class="px-2 py-1">
-                        <p>🌟4.5</p>
-                        <h1 class="text-lg font-semibold">Onion 1 KG</h1>
+                        <h1 class="text-lg font-semibold">Tomato 1 KG</h1>
                         <p>$39.99</p>
                     </div>
                 </div>
@@ -158,11 +159,11 @@
                         <p>$39.99</p>
                     </div>
                 </div>
-                <div class="rounded-xl w-64 h-auto flex justify-center items-center bg-white ">
-                    <div><img class="bg-[#EFEBE3] rounded-xl" src="c2-assets/onion.png" alt=""></div>
+                <div class="rounded-xl w-64 h-auto lg:flex justify-center items-center bg-white hidden md:block ">
+                    <div><img class="bg-[#EFEBE3] rounded-xl" src="c2-assets/potato.png" alt=""></div>
                     <div class="px-2 py-1">
                         <p>🌟4.5</p>
-                        <h1 class="text-lg font-semibold">Onion 1 KG</h1>
+                        <h1 class="text-lg font-semibold">Potato 1 KG</h1>
                         <p>$39.99</p>
                     </div>
                 </div>
